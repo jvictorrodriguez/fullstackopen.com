@@ -23,4 +23,11 @@ The main focus is on **building Single Page Applications (SPAs)** with **ReactJS
 - **Interactive lessons**: Hands-on practice with real-world projects.
 - **Comprehensive tutorials**: From beginner to advanced levels.
 - **Full-stack development**: Learn both front-end and back-end development.
-- **RESTful APIs**: Build robust and
+- **RESTful APIs**: Build robust and **RESTful APIs**: Build robust and scalable API services.
+- **Modern tech stack**: Stay up to date with the latest tools and libraries.
+
+---
+
+### 📚 Pre-requisites:
+- Basic understanding of **HTML**, **CSS**, and **JavaScript**.
+- Some familiarity with **version control (Git)** is a plus.
