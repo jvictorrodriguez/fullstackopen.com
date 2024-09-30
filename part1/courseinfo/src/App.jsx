@@ -12,16 +12,16 @@ const Header = () => {
       <h1>{course}</h1>
   )
 }
-const Content = (prop) => {
+const Content = (props) => {
   return (
     <p>
-      {prop.part} {prop.exercises}
+      {props.part} {props.exercises}
     </p>
   )
 }
-const Total = (prop) => {
+const Total = () => {
   return (
-<p>Number of exercises {prop.exercises1 + prop.exercises2 + prop.exercises3}</p>
+<p>Number of exercises {exercises1 + exercises2 + exercises3}</p>
   )
 }
 
@@ -31,7 +31,7 @@ const Total = (prop) => {
       <Content part={part1}  exercises={exercises1} />
       <Content part={part2}  exercises={exercises2} />
       <Content part={part3}  exercises={exercises3} />
-      <Total exercises1 = {exercises1} exercises2 = {exercises2} exercises3 = {exercises3}/>
+      <Total />
     </div>
   )
 }
