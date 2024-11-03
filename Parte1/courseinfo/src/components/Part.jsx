@@ -1,4 +1,4 @@
-function Part (part, exercise){
+function Part ({part, exercise}){
 return (
     <p>{part} {exercise} </p>
 )
