@@ -32,8 +32,7 @@ export default [
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
-      ],'react/prop-types': 0 //Añadido por la lección 1 de fullstackopen.  Se desactiva para evitar errores de prop-types.
-
+      ],
     },
   },
 ]
