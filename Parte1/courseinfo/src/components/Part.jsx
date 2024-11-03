@@ -1,6 +1,7 @@
-function Part ({part, exercise}){
+function Part ({part}){
+    console.log("part", part)
 return (
-    <p>{part} {exercise} </p>
+    <p>{part.name} {part.exercises} </p>
 )
 }
 export default Part
